@@ -1,6 +1,7 @@
 package net.matowo.invisiblearmor;
 
 import com.mojang.logging.LogUtils;
+import net.matowo.invisiblearmor.item.ForgeEventHandler;
 import net.matowo.invisiblearmor.item.ModCreativeModTabs;
 import net.matowo.invisiblearmor.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -56,7 +57,7 @@ public class MatowosInvisibleArmor
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            MinecraftForge.EVENT_BUS.register(ForgeEventHandler.class);
         }
     }
 
