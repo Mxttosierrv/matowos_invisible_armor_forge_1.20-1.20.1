@@ -58,6 +58,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.INVISIBLE_NETHERITE_BOOTS.get());
 
                         pOutput.accept(ModItems.INVISIBLE_TURTLE_HELMET.get());
+
+                        // horse armors
+                        pOutput.accept(ModItems.INVISIBLE_LEATHER_HORSE_ARMOR.get());
+                        pOutput.accept(ModItems.INVISIBLE_IRON_HORSE_ARMOR.get());
+                        pOutput.accept(ModItems.INVISIBLE_GOLDEN_HORSE_ARMOR.get());
+                        pOutput.accept(ModItems.INVISIBLE_DIAMOND_HORSE_ARMOR.get());
                     })
                     .build());
 

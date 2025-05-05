@@ -45,11 +45,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.INVISIBLE_ARMOR_SMITHING_TEMPLATE);
         simpleItem(ModItems.VISIBLE_ARMOR_SMITHING_TEMPLATE);
 
-        trimmedArmorItem(ModItems.INVISIBLE_LEATHER_HELMET);
-        trimmedArmorItem(ModItems.INVISIBLE_LEATHER_CHESTPLATE);
-        trimmedArmorItem(ModItems.INVISIBLE_LEATHER_LEGGINGS);
-        trimmedArmorItem(ModItems.INVISIBLE_LEATHER_BOOTS);
-
         trimmedArmorItem(ModItems.INVISIBLE_CHAINMAIL_HELMET);
         trimmedArmorItem(ModItems.INVISIBLE_CHAINMAIL_CHESTPLATE);
         trimmedArmorItem(ModItems.INVISIBLE_CHAINMAIL_LEGGINGS);

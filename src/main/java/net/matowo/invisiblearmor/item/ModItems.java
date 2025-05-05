@@ -26,6 +26,7 @@ public class ModItems {
     private static final ResourceLocation EMPTY_ARMOR_SLOT_BOOTS_TEXTURE = new ResourceLocation("item/empty_armor_slot_boots");
     private static  final ResourceLocation EMPTY_SLOT_INGOT_TEXTURE = new ResourceLocation("item/empty_slot_ingot");
     private static  final ResourceLocation EMPTY_SLOT_ELYTRA_TEXTURE = new ResourceLocation("matowos_invisible_armor","item/empty_elytra_slot");
+    private static  final ResourceLocation EMPTY_SLOT_HORSE_ARMOR_TEXTURE = new ResourceLocation("matowos_invisible_armor","item/empty_slot_horse_armor");
 
 
     private static List<ResourceLocation> getEmptyArmorSlots() {
@@ -34,7 +35,8 @@ public class ModItems {
                 EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE,
                 EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE,
                 EMPTY_ARMOR_SLOT_BOOTS_TEXTURE,
-                EMPTY_SLOT_ELYTRA_TEXTURE
+                EMPTY_SLOT_ELYTRA_TEXTURE,
+                EMPTY_SLOT_HORSE_ARMOR_TEXTURE
         );
     }
     private static List<ResourceLocation> getEmptyAdditionSlots() {
@@ -66,19 +68,31 @@ public class ModItems {
             ));
 
 
-    // ELYTRA
+    // ELYTRA - maxDamage = 432
     public static final RegistryObject<Item> INVISIBLE_ELYTRA = ITEMS.register("invisible_elytra", () ->
             new ModElytraItem(new Item.Properties().durability(432).rarity(Rarity.UNCOMMON)));
 
+
+    // HORSE ARMORS
+    public static final RegistryObject<Item> INVISIBLE_LEATHER_HORSE_ARMOR = ITEMS.register("invisible_leather_horse_armor",
+            () -> new DyeableHorseArmorItem(3, "invisible", new Item.Properties()));
+    public static final RegistryObject<Item> INVISIBLE_IRON_HORSE_ARMOR = ITEMS.register("invisible_iron_horse_armor",
+            () -> new HorseArmorItem(5, "invisible", new Item.Properties()));
+    public static final RegistryObject<Item> INVISIBLE_GOLDEN_HORSE_ARMOR = ITEMS.register("invisible_golden_horse_armor",
+            () -> new HorseArmorItem(7, "invisible", new Item.Properties()));
+    public static final RegistryObject<Item> INVISIBLE_DIAMOND_HORSE_ARMOR = ITEMS.register("invisible_diamond_horse_armor",
+            () -> new HorseArmorItem(11, "invisible", new Item.Properties()));
+
+
     // ARMORS
     public static final RegistryObject<Item> INVISIBLE_LEATHER_HELMET = ITEMS.register("invisible_leather_helmet",
-            () -> new ArmorItem(ModArmorMaterials.INVISIBLE_LEATHER, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new DyeableArmorItem(ModArmorMaterials.INVISIBLE_LEATHER, DyeableArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> INVISIBLE_LEATHER_CHESTPLATE = ITEMS.register("invisible_leather_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.INVISIBLE_LEATHER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new DyeableArmorItem(ModArmorMaterials.INVISIBLE_LEATHER, DyeableArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> INVISIBLE_LEATHER_LEGGINGS = ITEMS.register("invisible_leather_leggings",
-            () -> new ArmorItem(ModArmorMaterials.INVISIBLE_LEATHER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new DyeableArmorItem(ModArmorMaterials.INVISIBLE_LEATHER, DyeableArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> INVISIBLE_LEATHER_BOOTS = ITEMS.register("invisible_leather_boots",
-            () -> new ArmorItem(ModArmorMaterials.INVISIBLE_LEATHER, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new DyeableArmorItem(ModArmorMaterials.INVISIBLE_LEATHER, DyeableArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> INVISIBLE_CHAINMAIL_HELMET = ITEMS.register("invisible_chainmail_helmet",
             () -> new ArmorItem(ModArmorMaterials.INVISIBLE_CHAINMAIL, ArmorItem.Type.HELMET, new Item.Properties()));

@@ -4,20 +4,26 @@
 
   "item.matowos_invisible_armor.invisible_armor_smithing_template": "Schmiedevorlag",
   "item.minecraft.invisible_smithing_template.tittle": "Unsichtbari Rüstigsaufwertig",
-  "item.minecraft.invisible_smithing_template.applies_to": "Rüstig & Elytre",
+  "item.minecraft.invisible_smithing_template.applies_to": "Rüstig, Rossharnisch & Elytre",
   "item.minecraft.invisible_smithing_template.ingredients": "Chupferbarren",
-  "item.minecraft.invisible_smithing_template.base_slot_description": "Rüstigsteil oder Elytre hinzuefüege",
+  "item.minecraft.invisible_smithing_template.base_slot_description": "Rüstigsteil, Rossharnisch oder Elytre hinzuefüege",
   "item.minecraft.invisible_smithing_template.additions_slot_description": "Chupferbarren hinzuefüege",
 
   "item.matowos_invisible_armor.visible_armor_smithing_template": "Schmiedevorlag",
   "item.minecraft.visible_smithing_template.tittle": "Sichtbari Rüstigsaufwertig",
-  "item.minecraft.visible_smithing_template.applies_to": "Unsichtbari Rüstig & Unsichtbari Elytre",
+  "item.minecraft.visible_smithing_template.applies_to": "Unsichtbari Rüstig, Unsichtbari Rossharnisch & Unsichtbari Elytre",
   "item.minecraft.visible_smithing_template.ingredients": "Chupferbarren",
-  "item.minecraft.visible_smithing_template.base_slot_description": "Unsichtbari Rüstigsteil oder unsichtbari Elytre hinzuefüege",
+  "item.minecraft.visible_smithing_template.base_slot_description": "Unsichtbari Rüstigsteil, unsichtbari Rossharnisch oder unsichtbari Elytre hinzuefüege",
   "item.minecraft.visible_smithing_template.additions_slot_description": "Chupferbarren hinzuefüege",
 
 
   "item.matowos_invisible_armor.invisible_elytra": "Unsichtbari Elytre",
+
+
+  "item.matowos_invisible_armor.invisible_leather_horse_armor": "Unsichtbari Leder-Rossharnisch",
+  "item.matowos_invisible_armor.invisible_iron_horse_armor": "Unsichtbari Iise-Rossharnisch",
+  "item.matowos_invisible_armor.invisible_golden_horse_armor": "Unsichtbari Gold-Rossharnisch",
+  "item.matowos_invisible_armor.invisible_diamond_horse_armor": "Unsichtbari Diamant-Rossharnisch",
 
 
   "item.matowos_invisible_armor.invisible_leather_helmet": "Unsichtbari Lederchappe",

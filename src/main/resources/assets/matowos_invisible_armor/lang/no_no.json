@@ -4,20 +4,26 @@
 
   "item.matowos_invisible_armor.invisible_armor_smithing_template": "Smimal",
   "item.minecraft.invisible_smithing_template.tittle": "Usynlig Rustningsoppgradering",
-  "item.minecraft.invisible_smithing_template.applies_to": "Rustning & Elytra",
+  "item.minecraft.invisible_smithing_template.applies_to": "Rustning, Hesterustning & Elytra",
   "item.minecraft.invisible_smithing_template.ingredients": "Kobberbarre",
-  "item.minecraft.invisible_smithing_template.base_slot_description": "Legg til en rustningsdel eller Elytra",
+  "item.minecraft.invisible_smithing_template.base_slot_description": "Legg til en rustningsdel, hesterustning eller Elytra",
   "item.minecraft.invisible_smithing_template.additions_slot_description": "Legg til Kobberbarre",
 
   "item.matowos_invisible_armor.visible_armor_smithing_template": "Smimal",
   "item.minecraft.visible_smithing_template.tittle": "Synlig Rustningsoppgradering",
-  "item.minecraft.visible_smithing_template.applies_to": "Usynlig Rustning & Usynlig Elytra",
+  "item.minecraft.visible_smithing_template.applies_to": "Usynlig Rustning, Usynlig Hesterustning & Usynlig Elytra",
   "item.minecraft.visible_smithing_template.ingredients": "Kobberbarre",
-  "item.minecraft.visible_smithing_template.base_slot_description": "Legg til en usynlig rustningsdel eller Elytra",
+  "item.minecraft.visible_smithing_template.base_slot_description": "Legg til en usynlig rustningsdel, usynlig hesterustning eller Elytra",
   "item.minecraft.visible_smithing_template.additions_slot_description": "Legg til Kobberbarre",
 
 
   "item.matowos_invisible_armor.invisible_elytra": "Usynlig Elytra",
+
+
+  "item.matowos_invisible_armor.invisible_leather_horse_armor": "Usynlig Læhesterustning",
+  "item.matowos_invisible_armor.invisible_iron_horse_armor": "Usynlig Jernhesterustning",
+  "item.matowos_invisible_armor.invisible_golden_horse_armor": "Usynlig Gullhesterustning",
+  "item.matowos_invisible_armor.invisible_diamond_horse_armor": "Usynlig Diamanthesterustning",
 
 
   "item.matowos_invisible_armor.invisible_leather_helmet": "Usynlig Lærhette",

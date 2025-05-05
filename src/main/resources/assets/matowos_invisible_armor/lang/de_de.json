@@ -4,20 +4,26 @@
 
   "item.matowos_invisible_armor.invisible_armor_smithing_template": "Schiemedevorlage",
   "item.minecraft.invisible_smithing_template.tittle": "Unsichtbare Rüstungsaufwertung",
-  "item.minecraft.invisible_smithing_template.applies_to": "Rüstung & Elytren",
+  "item.minecraft.invisible_smithing_template.applies_to": "Rüstung, Rossharnisch & Elytren",
   "item.minecraft.invisible_smithing_template.ingredients": "Kupferbarren",
-  "item.minecraft.invisible_smithing_template.base_slot_description": "Rüstungsteil oder Elytren hinzufügen",
+  "item.minecraft.invisible_smithing_template.base_slot_description": "Rüstungsteil, Rossharnisch oder Elytren hinzufügen",
   "item.minecraft.invisible_smithing_template.additions_slot_description": "Kupferbarren hinzufügen",
 
   "item.matowos_invisible_armor.visible_armor_smithing_template": "Schiemedevorlage",
   "item.minecraft.visible_smithing_template.tittle": "Sichtbare Rüstungsaufwertung",
-  "item.minecraft.visible_smithing_template.applies_to": "Unsichtbare Rüstung & Unsichtbare Elytren",
+  "item.minecraft.visible_smithing_template.applies_to": "Unsichtbare Rüstung, Unsichtbare Rossharnisch & Unsichtbare Elytren",
   "item.minecraft.visible_smithing_template.ingredients": "Kupferbarren",
-  "item.minecraft.visible_smithing_template.base_slot_description": "Unsichtbare Rüstungsteil oder unsichtbare Elytren hinzufügen",
+  "item.minecraft.visible_smithing_template.base_slot_description": "Unsichtbare Rüstungsteil, unsichtbare Rossharnisch oder unsichtbare Elytren hinzufügen",
   "item.minecraft.visible_smithing_template.additions_slot_description": "Kupferbarren hinzufügen",
 
 
   "item.matowos_invisible_armor.invisible_elytra": "Unsichtbare Elytren",
+
+
+  "item.matowos_invisible_armor.invisible_leather_horse_armor": "Unsichtbare Lederner Rossharnisch",
+  "item.matowos_invisible_armor.invisible_iron_horse_armor": "Unsichtbare Eiserner Rossharnisch",
+  "item.matowos_invisible_armor.invisible_golden_horse_armor": "Unsichtbare Goldener Rossharnisch",
+  "item.matowos_invisible_armor.invisible_diamond_horse_armor": "Unsichtbare Diamantener Rossharnisch",
 
 
   "item.matowos_invisible_armor.invisible_leather_helmet": "Unsichtbare Lederkappe",

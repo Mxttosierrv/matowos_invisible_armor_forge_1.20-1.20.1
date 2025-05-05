@@ -4,7 +4,10 @@ import com.mojang.logging.LogUtils;
 import net.matowo.invisiblearmor.item.ForgeEventHandler;
 import net.matowo.invisiblearmor.item.ModCreativeModTabs;
 import net.matowo.invisiblearmor.item.ModItems;
+import net.minecraft.world.item.DyeableArmorItem;
+import net.minecraft.world.item.DyeableHorseArmorItem;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -58,6 +61,30 @@ public class MatowosInvisibleArmor
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             MinecraftForge.EVENT_BUS.register(ForgeEventHandler.class);
+        }
+
+        @SubscribeEvent
+        public static void onArmorItemColorRegister(RegisterColorHandlersEvent.Item event) {
+            event.register((stack, tintIndex) -> {
+                        if (tintIndex == 0) {
+                            return ((DyeableArmorItem) stack.getItem()).getColor(stack);
+                        }
+                        return 0xFFFFFF;
+                    }, ModItems.INVISIBLE_LEATHER_HELMET.get(),
+                    ModItems.INVISIBLE_LEATHER_CHESTPLATE.get(),
+                    ModItems.INVISIBLE_LEATHER_LEGGINGS.get(),
+                    ModItems.INVISIBLE_LEATHER_BOOTS.get());
+        }
+
+        @SubscribeEvent
+        public static void onHorseArmorItemColorRegister(RegisterColorHandlersEvent.Item event) {
+            event.register((stack, tintIndex) -> {
+                        if (tintIndex == 0) {
+                            return ((DyeableHorseArmorItem) stack.getItem()).getColor(stack);
+                        }
+                        return 0xFFFFFF;
+                    },
+                    ModItems.INVISIBLE_LEATHER_HORSE_ARMOR.get());
         }
     }
 
